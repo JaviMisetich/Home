@@ -123,3 +123,12 @@ footer{
     justify-content: center;
     margin-top: 45px;
 }
+.contacto{
+    width: 50%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(127, 9, 163);
+    margin: 10%;
+    font-size: 20px;
+}
