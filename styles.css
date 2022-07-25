@@ -28,6 +28,12 @@ header {
     flex-direction: row;
 }
 
+.home-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 ul,
 li,
 a {
@@ -68,22 +74,7 @@ a {
 }
 
 .animefenix {
-    width: 100%;
-    height: 378px;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    color: rgb(253 117 0);
-    background-image: url(./assets/img/animefenix.png);
-}
-
-.jkanime {
-    width: 100%;
+    width: 49%;
     height: 370px;
     margin-top: 2%;
     display: flex;
@@ -93,12 +84,30 @@ a {
     font-size: 21px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    color: rgb(253 117 0);
+    background-color: black;
+}
+
+/* */
+
+.jkanime {
+    width: 49%;
+    height: 370px;
+    margin-top: 2%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 21px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
     color: rgb(3, 3, 3);
-    background-image: url(./assets/img/jkanime.png);
+    background-color: rgb(209, 209, 209);
 }
 
 .monoschinos {
-    width: 100%;
+    width: 49%;
     height: 370px;
     margin-top: 2%;
     display: flex;
@@ -109,14 +118,15 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: rgb(163 9 101);
-    background-image: url(./assets/img/monoschinos.png);
+    background-color: black;
 
 }
 
 .animeflv {
-    width: 100%;
+    width: 49%;
     height: 370px;
     margin-top: 2%;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -125,7 +135,9 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: rgb(3, 3, 3);
-    background-image: url(./assets/img/Animeflv.png);
+    background-color: rgb(209, 209, 209);
+    cursor: pointer;
+
 }
 
 footer {
@@ -196,5 +208,11 @@ footer {
     .footer{
         display: flex;
         text-align: center;
+    }
+}
+@media(max-width: 618.99px){
+    .img-2{
+        width: 25%;
+        height: 25%;
     }
 }
